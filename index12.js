@@ -39,12 +39,3 @@ io.on('connection', (socket) => {
 http.listen(3000, () => {
     console.log('Listening to port *:3000');
 });
-
-
-
-
-// if (range < 10) {
-//     io.emit('chat message', (int)(Math.random() * 10));
-// } else {
-    
-// }
